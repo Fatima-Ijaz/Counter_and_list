@@ -1,16 +1,32 @@
-# todo_sharedprefs_app
+# 📋 Counter & To-Do App
 
-A new Flutter project.
+A **Flutter** application that combines a persistent **Counter** and a **To-Do List** in a clean, responsive UI.  
+Data is stored locally using **SharedPreferences**, so your counter value and tasks stay even after closing the app.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔢 Counter Page
+- Increase, decrease, and reset counter values.
+- Saves counter state automatically between app sessions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ To-Do List Page
+- Add new tasks quickly.
+- Delete tasks with swipe-to-dismiss or delete button.
+- Persistent storage — tasks remain after app restarts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🌟 UI & UX
+- **Material 3-inspired** design with rounded cards and buttons.
+- Bottom navigation for easy switching between Counter & To-Do.
+- SnackBar feedback when removing tasks.
+
+---
+
+## 🛠️ Tech Stack
+- **Flutter** (Dart)
+- **Shared Preferences** for local storage
+- **Material Design** widgets
+
+---
+
